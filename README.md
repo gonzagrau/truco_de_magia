@@ -95,7 +95,12 @@ eval "$(ssh-agent -s)"
 ```
 
 **Agregar la clave al agente**
+```
+ssh-add ~/.ssh/id_ed25519
 
+```
+
+**Imprimir la clave en consola para copiarla**
 ```
 cat ~/.ssh/id_ed25519.pub
 ```
