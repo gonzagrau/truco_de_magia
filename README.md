@@ -75,6 +75,12 @@ git checkout main
 git merge nombre_rama
 ```
 
+**Clonar un repositorio remoto**
+
+```
+git clone direccion/del/repo
+```
+
 ## Configuración SSH
 
 **Ver claves ssh preexistentes en el sistema**
